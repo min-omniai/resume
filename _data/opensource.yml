@@ -1,0 +1,23 @@
+- layout: left
+  name: ops-risk-dashboard
+  link: https://github.com/min-omniai/ops-risk-dashboard
+  quote: >
+    8팀 리스크 추적 웹 대시보드
+  description: | # this will include new lines to allow paragraphs
+    * React · TypeScript · Supabase · [라이브 데모](https://min-omniai.github.io/ops-risk-dashboard/)
+
+- layout: left
+  name: lec-unity-managers-arch
+  link: https://github.com/min-omniai/lec-unity-managers-arch
+  quote: >
+    Unity Architecture Guide 특강 코드 저장소
+  description: | # this will include new lines to allow paragraphs
+    * 교안을 실행 가능한 형태로 병행 관리 (Unity 6 / C#)
+
+- layout: left
+  name: Unity Framework
+  link: https://github.com/richrookie/UnityFramework
+  quote: >
+    팀내 개발 환경 개선 오픈소스
+  description: | # this will include new lines to allow paragraphs
+    * MondayOFF 재직 시 인하우스 개발 효율 개선용으로 설계

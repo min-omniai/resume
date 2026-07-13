@@ -1,0 +1,25 @@
+- layout: left
+  company: XR/Unity 게임개발 KDT 과정 (기관명 기입 필요)
+  job_title: 전담 강사 · 운영 자동화 설계
+  dates: 2025.10 ~ 2026.07 (9개월)
+  quote: >
+    57명 학습자 · 8개 캡스톤 팀 운영을 AI 자동화 시스템으로 1인 전담
+  description: | # this will include new lines to allow paragraphs
+    * 운영 자동화 시스템 설계·구축 — 슬래시 커맨드 23개 · 훅 6개 · GitHub Actions 5개 · 결정론적 검증 스크립트 (429커밋, 3개월)
+    * [8팀 리스크 추적 웹 대시보드](https://min-omniai.github.io/ops-risk-dashboard/) 설계·구현 — React · TypeScript · Supabase · GPT API 구조화 분류
+    * Unity 응용~인터랙티브 101차시 설계·강의 + 렌더링 최적화 · 아키텍처 특강 2건
+    * 8팀 전원 최종발표 완주, Google Play Console 배포 진행 — 3개 B2B 파트너사 조율
+
+- layout: left
+  company: MondayOFF
+  link: https://www.mondayoff.me/
+  job_title: Client Developer
+  dates: 2020.10 ~ 2024.08 (3년 11개월)
+  quote: >
+    매출 6억, 누적 사용자 수 300만 모바일 하이퍼 캐주얼 게임 개발자
+  description: | # this will include new lines to allow paragraphs
+    * [Match Gun 3D](https://play.google.com/store/apps/details?id=com.mondayoff.matchgun) - 자사 첫 흑자 전환
+    * [TankBall!](https://play.google.com/store/apps/details?id=com.mondayoff.tank) - Day2 ROAS 130% 달성
+    * [TimeWalker 3D](https://play.google.com/store/apps/details?id=com.mondayoff.time) - 자사 첫 누적 유저 100만 달성
+    * 개발자들의 제작 효율을 위한 인하우스 Unity Framework 설계·제공
+    * 개발 파트 매니징 — 기획 수립, Firebase Analytics 지표 분석, QA 피드백 루프, 일정 관리

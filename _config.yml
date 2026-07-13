@@ -1,0 +1,48 @@
+# Site
+repository: min-omniai/resume
+favicon: images/favicon.ico
+
+version: 2
+
+# Personal info
+name: 최영민
+title: AI 자동화 엔지니어 (AI Automation Engineer)
+email: omnihub.ai@gmail.com
+website: https://min-omniai.github.io/
+
+# Social links
+github_username: min-omniai
+linkedin_username: youngmin-choi-bs-2405b6208
+
+# About Section
+# about_title: About Me
+about_content: |
+  Unity 게임 클라이언트 개발 **4년**(매출 6억 · 누적 유저 300만 서비스) 경력 위에서,
+  **Claude Code · GPT**를 활용해 57명 학습자 · 8개 캡스톤 팀 규모의 실제 운영 환경에
+  자동화 시스템을 설계·구축한 <mark>AI 자동화 엔지니어</mark>입니다.<br/>
+  슬래시 커맨드 23개 · 훅 6개 · GitHub Actions 5개 · 결정론적 검증 스크립트를 3개월간 429커밋으로 구축·운영했고,
+  8팀 리스크 추적 웹 대시보드([라이브 데모](https://min-omniai.github.io/ops-risk-dashboard/))를
+  React · TypeScript · Supabase로 구현했습니다.<br/>
+  원칙은 하나입니다 — <mark>"AI는 초안을 만들고, 최종 검증은 사람이 한다."</mark>
+  문제 정의 · 데이터 스키마 · 판단 규칙 설계와 검증을 직접 담당하고, 구현은 AI에 지시합니다.
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# education_title: Education
+
+# More Section
+more_content: |
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+# sass:
+#   style: compressed
