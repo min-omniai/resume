@@ -119,7 +119,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       **AI Automation** — Claude Code(슬래시 커맨드·훅·서브에이전트·MCP), GPT API 구조화 분류, 컨텍스트·하네스 엔지니어링, GitHub Actions, Google Apps Script
 
-      **Web / Data** — React, TypeScript, Supabase, Google Sheets 파이프라인
+      **Data & Ops** — 데이터 스키마·판단 규칙 설계, Google Sheets 파이프라인
 
       **Game Client** — C#, Unity Engine, Firebase Analytics, Git/GitHub
 
