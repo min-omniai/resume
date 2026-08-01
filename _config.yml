@@ -15,8 +15,8 @@ github_username: min-omniai
 linkedin_username: omni-choi-bs-2405b6208
 
 # About Section
-about_title: 소개
-about_profile_image: images/profile.png
+about_title: About Me
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Unity 게임 클라이언트 개발 4년을 거쳐, 지금은 AI로 운영을 자동화하는 시스템을 만듭니다.
 
@@ -28,11 +28,11 @@ about_content: | # this will include new lines to allow paragraphs
 
 # Section titles
 # 본문 항목은 _data/ 아래 yml 파일에서 관리합니다.
-experience_title: 경력
-projects_title: 프로젝트
-skill_title: 스킬
-opensource_title: 오픈소스
-education_title: 학력 · 자격
+experience_title: Experience
+projects_title: Ability
+skill_title: Skill
+opensource_title: Opensource
+education_title: Education
 
 # Footer
 footer_show_references: false

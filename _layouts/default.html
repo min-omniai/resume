@@ -59,8 +59,7 @@
                 icon.textContent = mode === 'dark' ? '☀' : '☾';
             }
 
-            var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-            apply(stored || (prefersDark ? 'dark' : 'light'));
+            apply(stored || 'light');
 
             btn.addEventListener('click', function () {
                 var next = body.classList.contains('dark') ? 'light' : 'dark';
