@@ -1,0 +1,46 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'modern-resume-theme';
+
+#theme-toggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid #DEDEDE;
+  border-radius: 50%;
+  background: #fff;
+  color: #4C4C4C;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+}
+
+#theme-toggle:hover {
+  background: #EAEAEA;
+}
+
+.dark #theme-toggle {
+  border-color: #444;
+  background: #333;
+  color: #e6e6e6;
+}
+
+.dark #theme-toggle:hover {
+  background: #444;
+}
+
+@media print {
+  #theme-toggle {
+    display: none;
+  }
+}

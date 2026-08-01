@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'ko' }}">
+
+{%- include head.html -%}
+<meta property="og:image" content="{{ site.about_profile_image | absolute_url }}">
+
+<body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+
+            {%- include about.html -%}
+
+            {%- if site.data.experience.size > 0 -%}
+            {%- include experience.html -%}
+            {%- endif -%}
+
+            {%- if site.data.projects.size > 0 -%}
+            {%- include projects.html -%}
+            {%- endif -%}
+
+            {%- if site.data.skill.size > 0 -%}
+            {%- include skill.html -%}
+            {%- endif -%}
+
+            {%- if site.data.opensource.size > 0 -%}
+            {%- include opensource.html -%}
+            {%- endif -%}
+
+            {%- if site.data.education.size > 0 -%}
+            {%- include education.html -%}
+            {%- endif -%}
+
+            {%- if site.more_content -%}
+            {%- include more.html -%}
+            {%- endif -%}
+
+        </div>
+    </main>
+
+    {%- include footer.html -%}
+
+    <button id="theme-toggle" type="button" aria-label="라이트/다크 모드 전환" title="라이트/다크 모드 전환">
+        <span aria-hidden="true"></span>
+    </button>
+
+    <script>
+        (function () {
+            var body = document.body;
+            var btn = document.getElementById('theme-toggle');
+            var icon = btn.firstElementChild;
+            var stored = null;
+            try { stored = localStorage.getItem('theme'); } catch (e) { }
+
+            function apply(mode) {
+                body.classList.toggle('dark', mode === 'dark');
+                icon.textContent = mode === 'dark' ? '☀' : '☾';
+            }
+
+            var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            apply(stored || (prefersDark ? 'dark' : 'light'));
+
+            btn.addEventListener('click', function () {
+                var next = body.classList.contains('dark') ? 'light' : 'dark';
+                apply(next);
+                try { localStorage.setItem('theme', next); } catch (e) { }
+            });
+        })();
+    </script>
+</body>
+
+</html>

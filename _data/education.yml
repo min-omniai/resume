@@ -1,0 +1,14 @@
+- layout: left
+  name: 상명대학교
+  qualification: 정보통신공학과 (BS)
+  dates: 2014.03 - 2020.02
+  description: | # this will include new lines to allow paragraphs
+    * 캡스톤 경진대회 우수상 - 상명대학교 교육혁신원 <mark>2019</mark>
+    * VR/AR 그랜드챌린지 입선 - 한국가상증강현실산업협의회(KoBRA) <mark>2019</mark>
+
+- layout: left
+  name: 게임프로그래밍전문가
+  qualification: 한국콘텐츠진흥원(KOCCA)
+  dates: 2020.08
+  description: | # this will include new lines to allow paragraphs
+    * Credential ID : 20101100040
