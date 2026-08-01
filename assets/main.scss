@@ -10,14 +10,15 @@
 // 아이콘 등 비텍스트 요소는 3:1을 충족시킴.
 // ─────────────────────────────────────────────
 
-// 라이트
-$c-bg:      #FAF9F5; // 아이보리 배경
-$c-text:    #1F1E1D; // 15.80:1
-$c-link:    #B0522F; //  4.87:1
-$c-link-hi: #8F4126;
-$c-accent:  #D97757; // 브랜드 오렌지 (아이콘 채움 전용, 흰 아이콘과 3.12:1)
-$c-muted:   #6B6761; //  5.33:1
-$c-rule:    #CFC7B5; // 점선 구분선
+// 라이트 — Claude 공식 브랜드 색상
+// Crail #C15F3C · White #FFFFFF · Pampas #F4F3EE · Cloudy #B1ADA1
+$c-bg:      #F4F3EE; // Pampas
+$c-link:    #C15F3C; // Crail — Pampas 위 3.80:1
+$c-link-hi: #A84A2E; // Crail 어둡게 — 5.13:1 (hover)
+$c-accent:  #C15F3C; // Crail — 로고/아이콘 채움 (흰 아이콘과 4.23:1)
+$c-rule:    #B1ADA1; // Cloudy — 점선 구분선
+$c-text:    #1F1E1D; // 14.98:1
+$c-muted:   #6B6761; //  5.06:1
 
 // 다크
 $d-bg:      #262624;
@@ -51,7 +52,7 @@ p.quote {
 }
 
 mark {
-  background-color: $c-link; // 흰 글씨와 5.13:1
+  background-color: $c-link; // Crail + 흰 글씨 4.23:1
   color: #fff;
 }
 
