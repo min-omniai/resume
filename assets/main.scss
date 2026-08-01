@@ -12,7 +12,8 @@
 
 // 라이트 — Claude 공식 브랜드 색상
 // Crail #C15F3C · White #FFFFFF · Pampas #F4F3EE · Cloudy #B1ADA1
-$c-bg:      #F4F3EE; // Pampas
+$c-bg:      #F1EAD9; // claude.ai 배경 톤. Pampas(#F4F3EE)보다 어둡고 따뜻해
+                     // 흰색 대비 상대 밝기 0.826 (Pampas 0.895) — 눈부심 완화
 $c-link:    #C15F3C; // Crail — Pampas 위 3.80:1
 $c-link-hi: #A84A2E; // Crail 어둡게 — 5.13:1 (hover)
 $c-accent:  #C15F3C; // Crail — 로고/아이콘 채움 (흰 아이콘과 4.23:1)
