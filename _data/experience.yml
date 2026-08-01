@@ -1,21 +1,24 @@
 - layout: left
   company: (주)디벨로켓
   job_title: 전담 강사 · 운영 자동화 설계
-  dates: 2025.10 - 2026.07
+  dates: 2025.10 ~ 2026.07 (10개월)
   quote: >
     XR/Unity 게임개발 KDT 과정 — 57명 학습자 · 8개 캡스톤 팀 전담
   description: | # this will include new lines to allow paragraphs
-    Unity 응용~인터랙티브 101차시를 설계·강의하고, 렌더링 최적화·아키텍처 특강 2건을 별도 기획·실시했습니다.
-    아래 프로젝트들은 모두 이 과정을 혼자 운영하기 위해 만든 실전 시스템입니다.
+    * Unity 응용~인터랙티브 <mark>101차시</mark> 설계·강의
+    * 렌더링 최적화·아키텍처 특강 2건 별도 기획·실시
+    * 아래 프로젝트들은 모두 이 과정을 혼자 운영하기 위해 만든 실전 시스템
 
 - layout: left
   company: MondayOFF
   link: https://www.mondayoff.me/
   job_title: Client Developer
-  dates: 2020.10 - 2024.08
+  dates: 2020.10 ~ 2024.08 (3년 11개월)
   quote: >
     매출 6억 · 누적 유저 300만 모바일 하이퍼캐주얼 게임
   description: | # this will include new lines to allow paragraphs
-    Match Gun 3D(자사 첫 흑자 전환), TankBall!(Day2 ROAS 130%), TimeWalker 3D(자사 첫 누적 유저 100만)를
-    개발했습니다. 인하우스 Unity Framework를 설계해 팀 개발 환경을 개선했고,
-    기획 수립·지표 분석·QA·일정 관리 등 개발 파트 매니징을 병행했습니다.
+    * **Match Gun 3D** - 자사 첫 <mark>흑자 전환</mark>
+    * **TankBall!** - Day2 <mark>ROAS 130%</mark>
+    * **TimeWalker 3D** - 자사 첫 누적 유저 <mark>100만</mark>
+    * 인하우스 Unity Framework 설계로 팀 개발 환경 개선
+    * 기획 수립·지표 분석·QA·일정 관리 등 개발 파트 매니징 병행
