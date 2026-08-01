@@ -59,7 +59,7 @@
                 icon.textContent = mode === 'dark' ? '☀' : '☾';
             }
 
-            apply(stored || 'light');
+            apply(stored || 'dark');
 
             btn.addEventListener('click', function () {
                 var next = body.classList.contains('dark') ? 'light' : 'dark';
