@@ -4,6 +4,127 @@
 
 @import 'modern-resume-theme';
 
+// ─────────────────────────────────────────────
+// Claude 팔레트
+// 대비비는 WCAG 2.1 기준. 본문 16px이므로 텍스트는 4.5:1,
+// 아이콘 등 비텍스트 요소는 3:1을 충족시킴.
+// ─────────────────────────────────────────────
+
+// 라이트
+$c-bg:      #FAF9F5; // 아이보리 배경
+$c-text:    #1F1E1D; // 15.80:1
+$c-link:    #B0522F; //  4.87:1
+$c-link-hi: #8F4126;
+$c-accent:  #D97757; // 브랜드 오렌지 (아이콘 채움 전용, 흰 아이콘과 3.12:1)
+$c-muted:   #6B6761; //  5.33:1
+$c-rule:    #CFC7B5; // 점선 구분선
+
+// 다크
+$d-bg:      #262624;
+$d-text:    #F5F4EF; // 13.77:1
+$d-link:    #E89A80; //  6.76:1
+$d-muted:   #A8A49B; //  6.10:1
+$d-rule:    #454340;
+
+// ── 라이트 ───────────────────────────────────
+body {
+  background: $c-bg;
+  color: $c-text;
+}
+
+a {
+  color: $c-link;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: $c-link-hi;
+}
+
+h3 {
+  border-bottom-color: $c-rule;
+}
+
+p.quote {
+  color: $c-muted;
+}
+
+mark {
+  background-color: $c-link; // 흰 글씨와 5.13:1
+  color: #fff;
+}
+
+.profile-img {
+  box-shadow: inset 0 0 20px rgba(31, 30, 29, .35);
+}
+
+.icons a {
+  color: $c-muted;
+}
+
+.button--sacnite::before {
+  box-shadow: inset 0 0 0 35px $c-accent;
+}
+
+.button--sacnite:hover {
+  color: $c-link;
+}
+
+.button--sacnite:hover::before {
+  box-shadow: inset 0 0 0 2px $c-link;
+}
+
+// ── 다크 ─────────────────────────────────────
+.dark {
+  background-color: $d-bg;
+  color: $d-text;
+
+  a {
+    color: $d-link;
+  }
+
+  a:active,
+  a:focus,
+  a:hover {
+    color: lighten($d-link, 8%);
+  }
+
+  h3 {
+    border-bottom-color: $d-rule;
+  }
+
+  p.quote {
+    color: $d-muted;
+  }
+
+  mark {
+    background-color: $d-link;
+    color: $d-bg;
+  }
+
+  .icons a {
+    color: $d-muted;
+  }
+
+  .button--sacnite::before {
+    box-shadow: inset 0 0 0 35px $d-link;
+  }
+
+  .button.button--sacnite {
+    color: $d-bg;
+  }
+
+  .button--sacnite:hover {
+    color: $d-link;
+  }
+
+  .button--sacnite:hover::before {
+    box-shadow: inset 0 0 0 2px $d-link;
+  }
+}
+
+// ── 라이트/다크 토글 버튼 ────────────────────
 #theme-toggle {
   position: fixed;
   right: 20px;
@@ -15,32 +136,54 @@
   width: 44px;
   height: 44px;
   padding: 0;
-  border: 1px solid #DEDEDE;
+  border: 1px solid $c-rule;
   border-radius: 50%;
-  background: #fff;
-  color: #4C4C4C;
+  background: $c-bg;
+  color: $c-link;
   font-size: 20px;
   line-height: 1;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+  box-shadow: 0 2px 6px rgba(31, 30, 29, .15);
 }
 
 #theme-toggle:hover {
-  background: #EAEAEA;
+  background: darken($c-bg, 5%);
 }
 
 .dark #theme-toggle {
-  border-color: #444;
-  background: #333;
-  color: #e6e6e6;
+  border-color: $d-rule;
+  background: lighten($d-bg, 5%);
+  color: $d-link;
 }
 
 .dark #theme-toggle:hover {
-  background: #444;
+  background: lighten($d-bg, 10%);
 }
 
 @media print {
   #theme-toggle {
     display: none;
+  }
+}
+
+// ── Experience quote를 섹션 제목과 같은 중앙선에 정렬 ──
+// 항목 본문은 12칸 그리드의 오른쪽 칸(sm 8/12 · md 9/12)에 들어가므로
+// quote만 음수 마진으로 행 전체 폭까지 넓혀 페이지 중앙선에 맞춘다.
+// 15px 보정값은 부트스트랩 컬럼의 좌우 패딩을 상쇄하기 위한 것.
+.experience-container .row p.quote {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 768px) {
+  .experience-container .row p.quote {
+    margin-left: calc(-50% - 15px);
+  }
+}
+
+@media (min-width: 992px) {
+  .experience-container .row p.quote {
+    margin-left: calc(-33.3333% - 10px);
   }
 }
