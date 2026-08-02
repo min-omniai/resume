@@ -19,10 +19,8 @@
   quote: >
     게임의 도전-판정-보상 루프를 숏폼 포맷에 이식한 수익화 실험
   description: | # this will include new lines to allow paragraphs
-    * 퀴즈·밸런스 게임 형식으로 시청자 참여를 설계하고, 릴스 → 프로필 → 링크 3단 퍼널과 하이라이트 온보딩 동선 구성
-    * 숏폼 30편 기획·제작·배포 — 누적 조회 <mark>428만</mark>, 100만 조회 2편
-    * 지표를 보며 포맷을 전환해 참여율을 <mark>약 10배</mark>(0.3% → 4%대)로 개선
-    * 도달과 전환이 다른 지표라는 것을 확인하고 종료
+    * 게임의 도전-판정-보상 루프를 숏폼 포맷에 이식 — 30편 기획·제작·배포, 누적 조회 <mark>428만</mark>
+    * 지표를 보고 포맷을 전환해 참여율을 <mark>약 10배</mark>(0.3% → 4%대)로 개선. 도달과 전환이 다른 지표라는 것을 확인하고 종료
 
 - layout: left
   company: MondayOFF
@@ -30,11 +28,10 @@
   job_title: Client Developer
   dates: 2020.10 ~ 2024.08 (3년 11개월)
   quote: >
-    매출 6억 · 누적 유저 300만 모바일 하이퍼캐주얼 게임
+    모바일 하이퍼캐주얼 14종 출시 · 매출 6억 · 누적 유저 300만
   description: | # this will include new lines to allow paragraphs
-    * **Match Gun 3D** - 자사 첫 <mark>흑자 전환</mark>
-    * **TankBall!** - Day2 <mark>ROAS 130%</mark>
-    * **TimeWalker 3D** - 자사 첫 누적 유저 <mark>100만</mark>
-    * 인하우스 Unity Framework 설계로 팀 개발 환경 개선 — Managers 허브(Data·Pool·Resource·Scene·Sound·UI), UI_Base 컴포넌트 바인딩, Stack 기반 Object Pool
-    * Firebase Analytics 기반 출시 후 지표 분석 · QA 피드백 루프 운영
-    * 기획 수립(컨셉·프로토타이핑)·일정 관리·부서 협업 조율 등 개발 파트 매니징 병행
+    * 인하우스 **Unity Framework** 설계로 팀 개발 환경 개선 — Managers 허브(Data·Pool·Resource·Scene·Sound·UI), UI_Base 컴포넌트 바인딩, Stack 기반 Object Pool
+    * **Match Gun 3D** - 14종 중 최대 매출 타이틀 · 자사 첫 <mark>흑자 전환</mark>
+    * **TankBall!** - Day2 <mark>ROAS 130%</mark> / **TimeWalker 3D** - 자사 첫 누적 유저 <mark>100만</mark>
+    * 3~4개월 주기로 신작을 출시하는 사이클에서 기획(컨셉·프로토타이핑)부터 출시 후 지표 분석까지 담당
+    * Firebase Analytics 기반 지표 분석 · QA 피드백 루프 · 일정 관리 · 부서 협업 조율

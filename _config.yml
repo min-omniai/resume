@@ -18,8 +18,9 @@ linkedin_username: omni-choi-bs-2405b6208
 about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Unity 게임 클라이언트 개발 3년 11개월 — 누적 유저 300만·매출 6억 규모의 라이브 서비스를
-  개발했고, 팀에 인하우스 Unity Framework를 설계해 제공했습니다.
+  Unity 게임 클라이언트 개발 3년 11개월 — 하이퍼캐주얼 14종을 출시하며 누적 유저 300만·
+  매출 6억 규모의 라이브 서비스를 개발했고, 팀에 인하우스 Unity Framework를 설계해
+  제공했습니다.
 
   지금은 XR/Unity KDT 과정에서 Unity 응용·인터랙티브 2개 모듈 136시수를 전담 설계·강의하며,
   실무에서 감으로 쓰던 구조를 <mark>"왜 이 구조가 필요한가"부터 설명할 수 있는 형태</mark>로
