@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 최영민
-title: AI 자동화 엔지니어
+title: Unity 클라이언트 개발자 · AI 활용
 email: omnihub.ai@gmail.com
 
 # Social links
@@ -18,18 +18,24 @@ linkedin_username: omni-choi-bs-2405b6208
 about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Unity 게임 클라이언트 개발 4년을 거쳐, 지금은 AI로 운영을 자동화하는 시스템을 만듭니다.
+  Unity 게임 클라이언트 개발 3년 11개월 — 모바일 하이퍼캐주얼 상용 3종을 출시했습니다.
+  누적 유저 300만·매출 6억 규모의 라이브 서비스를 개발했고, 팀에 인하우스 Unity Framework를
+  설계해 제공했습니다.
 
-  57명 학습자·8개 팀 규모의 개발자 교육 과정을 혼자 운영하기 위해 슬래시 커맨드 23개, 훅 6개,
-  GitHub Actions 5개, 리스크 추적 웹 대시보드를 설계·구축했습니다.
-  문제 정의와 데이터 스키마·판단 규칙 설계, 검증은 직접 하고 구현은 AI에 지시합니다.
+  지금은 XR/Unity KDT 과정에서 Unity 응용·인터랙티브 2개 모듈 136시수를 전담 설계·강의하며,
+  실무에서 감으로 쓰던 구조를 <mark>"왜 이 구조가 필요한가"부터 설명할 수 있는 형태</mark>로
+  정리했습니다. 동시에 8개 캡스톤 팀을 컨셉기획부터 Google Play 프로덕션 출시까지
+  게이트로 운영했습니다.
 
-  원칙은 하나입니다 — <mark>AI는 초안을 만들고, 최종 검증은 사람이 한다.</mark>
+  관리 병목은 사람을 더 붙이는 대신 도구를 설계해 풀었습니다.
+  판정 규칙과 데이터 스키마를 먼저 문서로 고정하고, 구현은 Claude Code·Codex에 지시했습니다.
+
+  원칙은 하나입니다 — <mark>구현은 위임하되, 판정 기준과 검증은 내가 쥔다.</mark>
 
 # Section titles
 # 본문 항목은 _data/ 아래 yml 파일에서 관리합니다.
 experience_title: Experience
-projects_title: Ability
+projects_title: Projects
 skill_title: Skill
 opensource_title: Opensource
 education_title: Education

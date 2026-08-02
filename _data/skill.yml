@@ -1,22 +1,22 @@
 - layout: left
-  name: AI Automation
-  description: | # this will include new lines to allow paragraphs
-    * Claude Code (슬래시 커맨드·훅·서브에이전트·MCP)
-    * GPT API 구조화 분류
-    * 컨텍스트·하네스 엔지니어링
-    * GitHub Actions
-    * Google Apps Script
-
-- layout: left
-  name: Data & Ops
-  description: | # this will include new lines to allow paragraphs
-    * 데이터 스키마·판단 규칙 설계
-    * Google Sheets 파이프라인
-
-- layout: left
   name: Game Client
   description: | # this will include new lines to allow paragraphs
-    * C#
-    * Unity Engine
-    * Firebase Analytics
-    * Git/GitHub
+    * C# · Unity Engine (Unity 6)
+    * 렌더링·최적화 — URP, Draw Call·SetPass Call, Static/Dynamic Batching, GPU Instancing, SRP Batcher, Frame Debugger
+    * 구조·패턴 — Managers 구조, static·Singleton, MonoBehaviour 생명주기, Object Pool, State Pattern, FSM, UI×MVC
+    * 게임 AI — Behaviour Tree, A-Star, NavMesh
+    * 시스템 — Input System, Cinemachine, Timeline, Render Texture, ScriptableObject, Addressable
+
+- layout: left
+  name: AI 활용
+  description: | # this will include new lines to allow paragraphs
+    * Claude Code (슬래시 커맨드·훅·서브에이전트·MCP) · Codex
+    * GPT API 구조화 분류 — 허용값 고정으로 분류 안정화
+    * 데이터 스키마·판정 규칙 설계 후 구현 위임, 검증은 결정론적 코드로 분리
+
+- layout: left
+  name: 분석 · 협업
+  description: | # this will include new lines to allow paragraphs
+    * Firebase Analytics · Luna Playable
+    * Git/GitHub · GitHub Actions
+    * Google Sheets · Apps Script

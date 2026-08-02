@@ -1,11 +1,34 @@
 # 오픈소스 섹션 — 항목이 없으면 섹션 전체가 렌더링되지 않습니다.
-# 추가하려면 아래 형식으로 이어 쓰세요.
+#
+# ▼ 아래 3건은 min-omniai에서 현재 private 상태입니다.
+#   이력서를 공개 지원에 쓰기 시작할 때 저장소를 public으로 전환하고
+#   `[]` 를 지운 뒤 주석을 해제하면 섹션이 렌더링됩니다.
+#
+#   ⚠️ MatchGun3D는 상용 출시작의 전체 소스로 보입니다.
+#      공개 전 회사 협의 여부를 반드시 확인하세요.
 #
 # - layout: left
-#   name: 저장소 이름
-#   link: https://github.com/min-omniai/저장소
+#   name: UnityFramework
+#   link: https://github.com/min-omniai/UnityFramework
 #   quote: >
-#     한 줄 요약
+#     인하우스 Unity 공통 프레임워크 — Managers 허브 구조
 #   description: |
-#     * 설명
+#     * Data·Pool·Resource·Scene·Sound·UI 매니저를 Managers 허브로 통합 접근
+#     * UI_Base 컴포넌트 바인딩, Stack 기반 Object Pool, 공용 유틸·확장 메서드
+#
+# - layout: left
+#   name: MatchGun3D
+#   link: https://github.com/min-omniai/MatchGun3D
+#   quote: >
+#     자사 첫 흑자 전환 모바일 퍼즐 게임 — 클라이언트 전담
+#   description: |
+#     * 매칭 로직·게임 흐름 구현, iOS·Android 출시
+#
+# - layout: left
+#   name: TankBall! / TimeWalker 3D / BunkerFever
+#   quote: >
+#     MondayOFF 재직 중 개발한 하이퍼캐주얼 타이틀 포트폴리오 발췌본
+#   description: |
+#     * TankBall! — Day2 ROAS 130%
+#     * TimeWalker 3D — 자사 첫 누적 유저 100만
 []

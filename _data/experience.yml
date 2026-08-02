@@ -1,13 +1,28 @@
 - layout: left
   company: (주)디벨로켓에듀
-  job_title: 전담 강사 · 운영 자동화 설계
-  dates: 2025.11 ~ 재직중 (9개월)
+  job_title: XR/Unity KDT 과정 강사 · 8팀 프로젝트 운영 담당
+  dates: 2025.11 ~ 재직중
   quote: >
-    XR/Unity 게임개발 KDT 과정 — 57명 학습자 · 8개 캡스톤 팀 전담
+    Unity 응용·인터랙티브 136시수 강의 · 8개 캡스톤 팀 37명을 프로덕션 출시까지 운영
   description: | # this will include new lines to allow paragraphs
-    * Unity 응용~인터랙티브 <mark>101차시</mark> 설계·강의
-    * 렌더링 최적화·아키텍처 특강 2건 별도 기획·실시
-    * 아래 프로젝트들은 모두 이 과정을 혼자 운영하기 위해 만든 실전 시스템
+    * UnityEngine3D <mark>응용(64시수)·인터랙티브(72시수)</mark> 2개 모듈 전담 설계·강의, 교안 131문서 직접 작성
+    * 렌더링 최적화(Batch·SetPass Call)·Unity 아키텍처 특강 2건 별도 기획·실시 — 아키텍처 특강은 실행 가능한 코드 저장소로 병행 관리
+    * 담당 모듈 정규평가 <mark>과정 7차수 중 최고 평균 86.4점</mark> (80점 이상 48/53명)
+    * 기업 협약 캡스톤 <mark>8팀 37명</mark>의 프로젝트 운영 담당 — 288시수, 해당 과목의 90.0%
+    * 컨셉기획 → Demo → CBT → OBT → 프로덕션 출시로 게이트 설계. 8팀 전원 최종발표 완주, 신규 출시 대상 5팀 중 <mark>3팀이 마감 내 Google Play 프로덕션 출시</mark>
+    * 매일 정규 수업 2교시가 소요되던 구두 브리핑을 1일 1회 내부 테스트 빌드 + 출시 노트 확인으로 대체
+
+- layout: left
+  company: 개인 프로젝트 — 도파민 실험실 (@dopazlab)
+  job_title: 숏폼 콘텐츠 기획 · 제작 · 운영
+  dates: 2025.02 ~ 2025.09 (8개월)
+  quote: >
+    게임의 도전-판정-보상 루프를 숏폼 포맷에 이식한 수익화 실험
+  description: | # this will include new lines to allow paragraphs
+    * 퀴즈·밸런스 게임 형식으로 시청자 참여를 설계하고, 릴스 → 프로필 → 링크 3단 퍼널과 하이라이트 온보딩 동선 구성
+    * 숏폼 30편 기획·제작·배포 — 누적 조회 <mark>428만</mark>, 100만 조회 2편
+    * 지표를 보며 포맷을 전환해 참여율을 <mark>약 10배</mark>(0.3% → 4%대)로 개선
+    * 도달과 전환이 다른 지표라는 것을 확인하고 종료
 
 - layout: left
   company: MondayOFF
@@ -20,5 +35,6 @@
     * **Match Gun 3D** - 자사 첫 <mark>흑자 전환</mark>
     * **TankBall!** - Day2 <mark>ROAS 130%</mark>
     * **TimeWalker 3D** - 자사 첫 누적 유저 <mark>100만</mark>
-    * 인하우스 Unity Framework 설계로 팀 개발 환경 개선
-    * 기획 수립·지표 분석·QA·일정 관리 등 개발 파트 매니징 병행
+    * 인하우스 Unity Framework 설계로 팀 개발 환경 개선 — Managers 허브(Data·Pool·Resource·Scene·Sound·UI), UI_Base 컴포넌트 바인딩, Stack 기반 Object Pool
+    * Firebase Analytics 기반 출시 후 지표 분석 · QA 피드백 루프 운영
+    * 기획 수립(컨셉·프로토타이핑)·일정 관리·부서 협업 조율 등 개발 파트 매니징 병행
