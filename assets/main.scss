@@ -189,3 +189,97 @@ mark {
     margin-left: calc(-33.3333% - 10px);
   }
 }
+
+// ── 한글 가독성 ──────────────────────────────
+// Roboto에는 한글 글리프가 없어 시스템 글꼴로 대체되므로 Pretendard를 앞에 둔다.
+// 테마의 양쪽 정렬은 한글에서 단어 간격을 크게 벌리므로 왼쪽 정렬로 되돌리고,
+// keep-all로 단어 중간 줄바꿈("메모/리")을 막는다.
+body {
+  font-family: "Pretendard Variable", Pretendard, Roboto, -apple-system, "Malgun Gothic", sans-serif;
+}
+
+p,
+ul {
+  text-align: left;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+li {
+  line-height: 1.65;
+}
+
+// ── 첫 화면 성과 칩 ──────────────────────────
+.highlights-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 8px;
+    border: 1px solid $c-rule;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  strong {
+    color: $c-link;
+    font-size: 2.0rem;
+    font-weight: 700;
+  }
+
+  span {
+    color: $c-muted;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .highlights {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .highlights strong {
+    font-size: 1.7rem;
+  }
+}
+
+.dark .highlights {
+  li {
+    border-color: $d-rule;
+  }
+
+  strong {
+    color: $d-link;
+  }
+
+  span {
+    color: $d-muted;
+  }
+}
+
+// 프로필 사진 축소 — About 본문을 첫 화면 안으로 당긴다
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+
+@media print {
+  .highlights li {
+    padding: 6px 4px;
+  }
+}

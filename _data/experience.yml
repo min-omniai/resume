@@ -7,6 +7,7 @@
   description: | # this will include new lines to allow paragraphs
     * UnityEngine3D <mark>응용(64시수)·인터랙티브(72시수)</mark> 2개 모듈 전담 설계·강의, 교안 131문서 직접 작성
     * 렌더링 최적화(Batch·SetPass Call)·Unity 아키텍처 특강 2건 별도 기획·실시 — 아키텍처 특강은 실행 가능한 코드 저장소로 병행 관리
+    * 훈련생 코드 리뷰·디버깅 지도, Git 형상관리·네트워크 프로그래밍 교안, 객체지향 코딩테스트 콘텐츠 제작
     * 담당 모듈 정규평가 <mark>과정 7차수 중 최고 평균 86.4점</mark> (80점 이상 48/53명)
     * 기업 협약 캡스톤 <mark>8팀 37명</mark>의 프로젝트 운영 담당 — 288시수, 해당 과목의 90.0%
     * 컨셉기획 → Demo → CBT → OBT → 프로덕션 출시로 게이트 설계. 8팀 전원 최종발표 완주, 신규 출시 대상 5팀 중 <mark>3팀이 마감 내 Google Play 프로덕션 출시</mark>
@@ -26,7 +27,7 @@
     * **Match Gun 3D** — 인게임 플레이 루프 전면 개편, 이탈 구간 데이터 기반 UI/UX·연출 개선, <mark>Applovin·IronSource 광고 SDK·IAP 연동</mark> 최적화 → 자사 첫 <mark>흑자 전환</mark>
     * **TankBall!** — 포격·충돌 시스템과 적 AI 패턴 구현, <mark>프로파일러 기반 메모리·드로우콜 최적화</mark>, 리워드 광고 배치 → Day2 <mark>ROAS 130%</mark>
     * **TimeWalker 3D** — 시간 가속·감속 물리 로직, 대규모 프랍 <mark>오브젝트 풀링</mark>으로 렌더 최적화, 라이브 업데이트·빌드 파이프라인 관리 → 자사 첫 누적 유저 <mark>100만</mark>
-    * 3~4개월 주기 신작 사이클에서 기획(컨셉·프로토타이핑)부터 iOS/Android 출시, Firebase Analytics 지표 분석까지 담당
+    * 3~4개월 주기 신작 사이클에서 기획(컨셉·프로토타이핑)부터 iOS/Android 출시, Firebase Analytics 지표 분석까지 담당 · QA 피드백 루프 · 일정 관리 · 부서 협업 조율
 
 - layout: left
   company: 크몽 (프리랜서)

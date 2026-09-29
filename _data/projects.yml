@@ -8,6 +8,7 @@
     * <mark>Stack 기반 Object Pool</mark>로 반복 생성·파괴 비용 절감
     * GetOrAddComponent·WaitForSeconds 캐싱 등 공용 유틸·확장 메서드 제공
     * 팀 프로젝트에 적용해 신규 프로젝트 초기 세팅 비용을 줄임
+    * 사용법을 Notion 개발 위키로 문서화해 신규 인원 온보딩 단축·협업 오류 감소
 
 - layout: top-middle
   name: Unity Architecture Guide
@@ -46,7 +47,7 @@
 - layout: top-middle
   name: AI 운영 하네스 (Claude Code)
   quote: >
-    57명·8팀 과정 운영의 반복 업무를 명령어로 자동화하고, AI 결과는 코드로 재검증
+    과정 57명(캡스톤 8팀 37명 포함) 운영의 반복 업무를 명령어로 자동화하고, AI 결과는 코드로 재검증
   description: | # this will include new lines to allow paragraphs
     * Obsidian 저장소 위에 Claude Code를 올려 브리핑·면담 기록·KPI 갱신·팀 체크인을 <mark>슬래시 커맨드 24개</mark>로 자동화
     * 훅 6개로 데이터 보호 가드레일 구성 — 아카이브 수정 차단, 기존 기록 덮어쓰기 차단, 경보 등급 불일치 차단

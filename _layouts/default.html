@@ -11,6 +11,10 @@
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
 
+            {%- if site.data.highlights.size > 0 -%}
+            {%- include highlights.html -%}
+            {%- endif -%}
+
             {%- include about.html -%}
 
             {%- if site.data.experience.size > 0 -%}
