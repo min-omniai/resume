@@ -1,0 +1,6 @@
+<div class="container projects-container">
+    <h3>{{ site.etc_title | default: "Etc" }}</h3>
+    {% for item in site.data.etc %}
+      {% include {{ item.layout | default: 'left' | append: ".html" }} item=item %}
+    {% endfor %}
+</div>

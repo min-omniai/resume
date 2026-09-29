@@ -16,3 +16,19 @@
     최종합격
   description: | # this will include new lines to allow paragraphs
     * Credential ID : 20101100040
+
+- layout: left
+  name: 직업능력개발훈련교사 3급 - 고용노동부
+  dates: 2026.08
+  quote: >
+    국가자격 · 정보기술개발 직종
+  description: | # this will include new lines to allow paragraphs
+    * 발급 : 서울지방고용노동청 서울남부지청
+
+- layout: left
+  name: NCS 확인강사 - 한국기술교육대학교 능력개발교육원
+  dates: 2025.11 (최초 승인)
+  quote: >
+    3개 직종 승인 (각 82점)
+  description: | # this will include new lines to allow paragraphs
+    * 실감형콘텐츠제작 · 정보기술개발 · 문화콘텐츠제작

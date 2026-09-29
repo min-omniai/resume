@@ -33,6 +33,10 @@
             {%- include education.html -%}
             {%- endif -%}
 
+            {%- if site.data.etc.size > 0 -%}
+            {%- include etc.html -%}
+            {%- endif -%}
+
             {%- if site.more_content -%}
             {%- include more.html -%}
             {%- endif -%}
