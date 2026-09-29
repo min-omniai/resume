@@ -20,7 +20,7 @@ about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   <mark>성능 최적화 · 구조 설계 · 업무 툴 개발</mark>을 해온 Unity 클라이언트 개발자입니다.
 
-  * **출시 성과** — MondayOFF 3년 11개월 동안 모바일 게임 14종 출시. 자사 첫 흑자 전환(Match Gun 3D),
+  * **출시 성과** — MondayOFF 3년 11개월 동안 모바일 게임 14종 출시. 글로벌 서비스 흑자 전환(Match Gun 3D),
     Day2 ROAS 130%(TankBall!), 자사 첫 누적 유저 100만(TimeWalker 3D)에 기여했습니다.
   * **구조 설계** — 팀이 쓰는 인하우스 Unity Framework(Managers · Object Pool · UI_Base)를 설계해
     신작 초기 세팅 비용을 줄였습니다.

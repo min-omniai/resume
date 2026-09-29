@@ -24,7 +24,7 @@
     모바일 하이퍼캐주얼 14종 출시 · 매출 6억 · 누적 유저 300만
   description: | # this will include new lines to allow paragraphs
     * 인하우스 **Unity Framework** 설계로 팀 개발 환경 개선 — Managers 허브(Data·Pool·Resource·Scene·Sound·UI), UI_Base 컴포넌트 바인딩, Stack 기반 Object Pool
-    * **Match Gun 3D** — 인게임 플레이 루프 전면 개편, 이탈 구간 데이터 기반 UI/UX·연출 개선, <mark>Applovin·IronSource 광고 SDK·IAP 연동</mark> 최적화 → 자사 첫 <mark>흑자 전환</mark>
+    * **Match Gun 3D** — 인게임 플레이 루프 전면 개편, 이탈 구간 데이터 기반 UI/UX·연출 개선, <mark>Applovin·IronSource 광고 SDK·IAP 연동</mark> 최적화 → 투입 이후 글로벌 서비스 <mark>흑자 전환</mark>
     * **TankBall!** — 포격·충돌 시스템과 적 AI 패턴 구현, <mark>프로파일러 기반 메모리·드로우콜 최적화</mark>, 리워드 광고 배치 → Day2 <mark>ROAS 130%</mark>
     * **TimeWalker 3D** — 시간 가속·감속 물리 로직, 대규모 프랍 <mark>오브젝트 풀링</mark>으로 렌더 최적화, 라이브 업데이트·빌드 파이프라인 관리 → 자사 첫 누적 유저 <mark>100만</mark>
     * 3~4개월 주기 신작 사이클에서 기획(컨셉·프로토타이핑)부터 iOS/Android 출시, Firebase Analytics 지표 분석까지 담당 · QA 피드백 루프 · 일정 관리 · 부서 협업 조율
