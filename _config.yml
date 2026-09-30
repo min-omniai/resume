@@ -24,7 +24,7 @@ about_content: | # this will include new lines to allow paragraphs
   * **구조** — 팀이 쓰는 인하우스 Unity Framework(Managers · Object Pool · UI_Base)를 설계했습니다.
   * **최적화** — 프로파일러로 메모리·드로우콜 병목을 찾아 줄였습니다.
 
-  최근 1년은 XR/Unity KDT 강사로 Unity 136시수를 강의하며 게임 팀의 Google Play 출시를 이끌었습니다.
+  최근 1년은 XR/Unity KDT 강사로 Unity 144시수 강의와 합반 프로젝트 2회 운영을 맡아 게임 팀의 Google Play 출시를 이끌었습니다.
 
 # Section titles
 # 본문 항목은 _data/ 아래 yml 파일에서 관리합니다.
