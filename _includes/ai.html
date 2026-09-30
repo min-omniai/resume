@@ -1,0 +1,6 @@
+<div class="container projects-container ai-container">
+  <h3>{{ site.ai_title | default: "AI 활용 사례" }}</h3>
+  {% for project in site.data.ai %}
+  {% include {{ project.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=project %}
+  {% endfor %}
+</div>
