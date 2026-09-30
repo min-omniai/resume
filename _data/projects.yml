@@ -3,6 +3,7 @@
 
 - layout: top-middle
   name: Match Gun 3D
+  github: min-omniai/MatchGun3D
   dates: 2023.05 ~ 2023.08 (3개월)
   quote: >
     출시 14종 중 최대 매출 타이틀: 투입 이후 글로벌 서비스 흑자 전환 · 매출 15만 달러
@@ -14,6 +15,7 @@
 
 - layout: top-middle
   name: TankBall!
+  github: min-omniai/TankBall
   dates: 2021.10 ~ 2022.01 (4개월)
   quote: >
     Day2 ROAS 130%
