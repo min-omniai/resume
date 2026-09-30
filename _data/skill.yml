@@ -1,24 +1,31 @@
+# 초안: 경력 서술에 근거가 있는 것 = 실무 / 강의 교안에서 다룬 것 = 강의·학습
+# 분류는 본인 확인 필요. 원본: _parked/skill-before-restructure.yml
+
 - layout: left
-  name: Game Client
+  name: 실무
+  qualification: MondayOFF · 출시작
   description: | # this will include new lines to allow paragraphs
-    * C# · Unity Engine (Unity 6)
-    * 렌더링·최적화 — URP, Draw Call·SetPass Call, Static/Dynamic Batching, GPU Instancing, SRP Batcher, Frame Debugger
-    * UI — UGUI, UI_Base 컴포넌트 바인딩, Popup 스택 관리
-    * 구조·패턴 — Managers 구조, static·Singleton, MonoBehaviour 생명주기, Object Pool, State Pattern, FSM, UI×MVC
-    * 게임 AI — Behaviour Tree, A-Star, NavMesh
-    * 시스템 — Input System, Cinemachine, Timeline, Render Texture, ScriptableObject, Addressable
-    * 출시 — Applovin·IronSource 광고 SDK, IAP, iOS/Android 빌드, 라이브 업데이트 대응
+    * C# · Unity Engine · UGUI
+    * 구조: Managers 구조, Singleton, Object Pool, UI_Base 컴포넌트 바인딩, Popup 스택
+    * 최적화: Profiler 기반 메모리·Draw Call 최적화, 오브젝트 풀링
+    * 출시: Applovin·IronSource 광고 SDK, IAP, iOS/Android 빌드, 라이브 업데이트
+    * 분석 · 협업: Firebase Analytics, Luna Playable, Git/GitHub
 
 - layout: left
   name: AI 활용
+  qualification: Claude Code · Codex
   description: | # this will include new lines to allow paragraphs
-    * Claude Code (슬래시 커맨드·훅·서브에이전트·MCP·GitHub Actions 연동) · Codex
-    * GPT API 구조화 분류 — 허용값 고정으로 분류 안정화
-    * 데이터 스키마·판정 규칙 설계 후 구현 위임, 검증은 결정론적 코드로 분리
+    * 컨텍스트 설계: CLAUDE.md·rules 계층으로 지침을 분리하고, 카탈로그로 필요한 문서만 불러오게 구성
+    * 하네스: 훅으로 삭제 차단·형식 검증을 강제하고, 슬래시 커맨드·스킬로 반복 절차를 패키징
+    * 검증: AI가 계산한 수치를 결정론 스크립트로 재계산, 작성 모델과 검수 모델을 분리한 교차검증
+    * 멀티 에이전트: 서브에이전트 병렬 검증, 작업 난이도별 모델 티어 배정
+    * 지식 관리: 원본 자료를 구조화 wiki로 증류하는 LLM-Wiki 운영(465페이지)
 
 - layout: left
-  name: 분석 · 협업
+  name: 강의 · 학습
+  qualification: Unity 6
   description: | # this will include new lines to allow paragraphs
-    * Firebase Analytics · Luna Playable
-    * Git/GitHub · GitHub Actions
-    * Google Sheets · Apps Script
+    * 렌더링: URP, SetPass Call, Static/Dynamic Batching, GPU Instancing, SRP Batcher, Frame Debugger
+    * 패턴: State Pattern, FSM, UI×MVC, ScriptableObject
+    * 게임 AI: Behaviour Tree, A-Star, NavMesh
+    * 시스템: Input System, Cinemachine, Timeline, Render Texture, Addressable
