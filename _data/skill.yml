@@ -15,19 +15,18 @@
   name: AI 활용
   qualification: Claude Code · Codex
   description: | # this will include new lines to allow paragraphs
-    * 컨텍스트 설계: CLAUDE.md·rules 계층으로 지침을 분리하고, 카탈로그로 필요한 문서만 불러오게 구성
-    * 하네스: 훅으로 삭제 차단·형식 검증을 강제하고, 슬래시 커맨드·스킬로 반복 절차를 패키징
-    * 검증: AI가 계산한 수치를 결정론 스크립트로 재계산, 작성 모델과 검수 모델을 분리한 교차검증
-    * 멀티 에이전트: 서브에이전트 병렬 검증, 작업 난이도별 모델 티어 배정
-    * 지식 관리: 원본 자료를 구조화 wiki로 증류하는 LLM-Wiki 운영(465페이지)
+    * 컨텍스트 설계: CLAUDE.md·rules 계층으로 지침 분리
+    * 하네스: 훅·커맨드·스킬로 규칙과 반복 절차 자동화
+    * 검증: 스크립트 재계산과 다른 모델 교차검증
+    * 멀티 에이전트: 서브에이전트 병렬 검증, 난이도별 모델 배정
+    * 지식 관리: LLM-Wiki 운영(465페이지)
 
 - layout: left
   name: 교육 · 운영
   qualification: XR/Unity KDT · KDC
   description: | # this will include new lines to allow paragraphs
-    * 교육과정 설계: PBL 설계(KDC IT기초역량 C#, 메타버스 입문 Unity 파트 세션 4~6), KDC 커리큘럼 편성 2종
-    * 교안 제작: Unity 응용 · 인터랙티브 프로그래밍(교안 131문서), 특강 2종(렌더링 최적화 · 아키텍처)
-      * 응용: URP, Input System, Cinemachine, LayerMask, Render Texture, UI 최적화 · MVC, 애니메이션 FSM, Object Pool, Audio · Particle · Light, Character Controller, Timeline 컷신, NavMesh, CSV · JSON, ScriptableObject
-      * 인터랙티브: 2D Tilemap · Sprite Animation, State Pattern 플랫포머, Behaviour Tree, A* 알고리즘
-    * 강의 콘텐츠 제작: 강의 촬영(OBS) · 편집(Vrew), 총 38강
-    * 팀 프로젝트 관리 · 운영: 출시 게이트 설계, 팀별 WBS, 리스크 판정 규칙
+    * 교육과정 설계: KDC 커리큘럼 2종, PBL 설계
+    * 교안 제작: Unity 응용·인터랙티브(131문서), 특강 2종
+    * 강의 콘텐츠 제작: 촬영(OBS)·편집(Vrew) 38강
+    * 팀 프로젝트 운영: 출시 게이트, 팀별 WBS, 리스크 판정 규칙
+
