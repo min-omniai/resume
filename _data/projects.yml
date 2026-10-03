@@ -44,6 +44,6 @@
   description: | # this will include new lines to allow paragraphs
     * <mark>Managers 단일 진입점</mark>으로 매니저 5종(Resource·Pool·Audio·Data·UI) 분리
     * UI_Base 컴포넌트 바인딩으로 UI 접근 단순화
-    * 실무판은 팀 프로젝트에 적용해 신작 초기 세팅 비용 절감
+    * 실무판은 팀 프로젝트에 적용
     * 공개판: Unity 6 샘플 코드 (C# 19파일)
 
