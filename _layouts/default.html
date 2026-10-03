@@ -11,11 +11,11 @@
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
 
+            {%- include about.html -%}
+
             {%- if site.data.highlights.size > 0 -%}
             {%- include highlights.html -%}
             {%- endif -%}
-
-            {%- include about.html -%}
 
             {%- if site.data.experience.size > 0 -%}
             {%- include experience.html -%}
@@ -25,12 +25,12 @@
             {%- include projects.html -%}
             {%- endif -%}
 
-            {%- if site.data.ai.size > 0 -%}
-            {%- include ai.html -%}
-            {%- endif -%}
-
             {%- if site.data.skill.size > 0 -%}
             {%- include skill.html -%}
+            {%- endif -%}
+
+            {%- if site.data.ai.size > 0 -%}
+            {%- include ai.html -%}
             {%- endif -%}
 
             {%- if site.data.opensource.size > 0 -%}

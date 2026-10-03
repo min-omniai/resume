@@ -1,4 +1,4 @@
-# 실무 · AI 활용 · 교육 운영. 교안 주제는 ops-smart04 03_교안/정규 05·06 폴더 기준
+# 실무 · AI 활용
 # 원본: _parked/skill-before-restructure.yml
 
 - layout: left
@@ -7,7 +7,7 @@
   description: | # this will include new lines to allow paragraphs
     * C# · Unity Engine · UGUI
     * 구조: Managers 구조, Singleton, Object Pool, UI_Base 컴포넌트 바인딩, Popup 스택
-    * 최적화: Profiler 기반 메모리·Draw Call 최적화, 오브젝트 풀링
+    * 최적화: Profiler 기반 메모리·Draw Call 최적화
     * 출시: Applovin·IronSource 광고 SDK, IAP, iOS/Android 빌드, 라이브 업데이트
     * 분석 · 협업: Firebase Analytics, Luna Playable, Git/GitHub
 
@@ -20,13 +20,3 @@
     * 검증: 스크립트 재계산과 다른 모델 교차검증
     * 멀티 에이전트: 서브에이전트 병렬 검증, 난이도별 모델 배정
     * 지식 관리: LLM-Wiki 운영(465페이지)
-
-- layout: left
-  name: 교육 · 운영
-  qualification: XR/Unity KDT · KDC
-  description: | # this will include new lines to allow paragraphs
-    * 교육과정 설계: KDC 커리큘럼 2종, PBL 설계
-    * 교안 제작: Unity 응용·인터랙티브(131문서), 특강 2종
-    * 강의 콘텐츠 제작: 촬영(OBS)·편집(Vrew) 38강
-    * 팀 프로젝트 운영: 출시 게이트, 팀별 WBS, 리스크 판정 규칙
-
