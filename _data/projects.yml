@@ -8,11 +8,10 @@
   quote: >
     출시 14종 중 최대 매출 타이틀: 투입 이후 글로벌 서비스 흑자 전환 · 매출 15만 달러
   description: | # this will include new lines to allow paragraphs
-    * 총기 짝맞추기 + 러너 모바일 퍼즐
-    * 2인 팀에서 클라이언트 개발 전담
-    * 인게임 플레이 루프 전면 개편
-    * 이탈 구간 데이터로 UI/UX·연출 개선
-    * 광고 SDK·IAP 연동 최적화
+    * 2인 팀에서 클라이언트 개발 전담 (총기 짝맞추기 + 러너 모바일 퍼즐)
+      * 인게임 플레이 루프 전면 개편
+      * 이탈 구간 데이터로 UI/UX·연출 개선
+      * 광고 SDK·IAP 연동 최적화
 
 - layout: top-middle
   name: TankBall!
@@ -22,8 +21,8 @@
     Day2 ROAS 130%
   description: | # this will include new lines to allow paragraphs
     * 2인 팀: 클라이언트 구현·레벨 15개, 기획 겸임
-    * 포격·충돌·적 AI 전투 시스템 구현
-    * <mark>프로파일러 기반 메모리·드로우콜 최적화</mark>
+      * 포격·충돌·적 AI 전투 시스템 구현
+      * <mark>프로파일러 기반 메모리·드로우콜 최적화</mark>
 
 - layout: top-middle
   name: TimeWalker 3D
@@ -33,8 +32,8 @@
     자사 첫 누적 유저 100만
   description: | # this will include new lines to allow paragraphs
     * 2인 팀: 클라이언트 구현·레벨 150개, 기획 겸임
-    * 시간 가속·감속 물리 로직 구현
-    * 오브젝트 풀링으로 대규모 프랍 렌더 부하 절감
+      * 시간 가속·감속 물리 로직 구현
+      * 오브젝트 풀링으로 대규모 프랍 렌더 부하 절감
 
 - layout: top-middle
   name: Unity Managers Framework
@@ -42,8 +41,8 @@
   quote: >
     MondayOFF에서 설계한 인하우스 공통 구조를 Unity 6 코드 샘플로 재구성
   description: | # this will include new lines to allow paragraphs
-    * <mark>Managers 단일 진입점</mark>으로 매니저 5종(Resource·Pool·Audio·Data·UI) 분리
-    * UI_Base 컴포넌트 바인딩으로 UI 접근 단순화
-    * 실무판은 팀 프로젝트에 적용
+    * 인하우스 공통 구조 설계: 실무판은 팀 프로젝트에 적용
+      * <mark>Managers 단일 진입점</mark>으로 매니저 5종(Resource·Pool·Audio·Data·UI) 분리
+      * UI_Base 컴포넌트 바인딩으로 UI 접근 단순화
     * 공개판: Unity 6 샘플 코드 (C# 19파일)
 
