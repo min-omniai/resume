@@ -19,12 +19,15 @@ linkedin_username: omni-choi-bs-2405b6208
 about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  모바일 게임 14종을 출시한 <mark>Unity 클라이언트 개발자</mark>입니다.
+  모바일 게임 14종을 출시한 <mark>Unity 클라이언트 개발자</mark>입니다. 출시작 합산 누적 유저 300만 · 매출 6억을 기록했습니다.
 
-  * **출시**: MondayOFF에서 3~4개월 주기로 프로토타입부터 iOS/Android 출시·라이브 업데이트까지 맡았습니다.
-  * **구조**: 팀이 쓰는 인하우스 Unity Framework(Managers · Object Pool · UI_Base)를 설계했습니다.
-  * **최적화**: 프로파일러로 메모리·드로우콜 병목을 찾아 줄였습니다.
-  * **AI 활용**: 최근 1년 XR/Unity KDT 강사로 일하며 교안 제작·프로젝트 운영 도구를 AI로 만들었습니다. 설계는 직접, 구현은 AI에 맡기고, 결과는 코드로 다시 검증합니다.
+  * **출시**: MondayOFF에서 프로토타입부터 iOS/Android 출시·라이브 운영까지 3~4개월 주기로 전담
+    * Match Gun 3D 투입 후 흑자 전환(매출 15만 달러), TimeWalker 3D 누적 유저 100만
+  * **구조**: 인하우스 Unity Framework(Managers · Object Pool · UI_Base) 설계
+    * 팀 프로젝트 공통 구조로 적용
+  * **AI 활용**: KDC C# 과정 20강을 11일에 1인 제작
+    * Claude Code로 교안 제작·검증 파이프라인 설계
+    * 다른 모델 교차검수 130건 반영, 실습 22개 빌드 0경고 0오류
 
 # Section titles
 # 본문 항목은 _data/ 아래 yml 파일에서 관리합니다.
