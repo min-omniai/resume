@@ -310,7 +310,7 @@ li {
 
 @media print {
   .highlights li {
-    padding: 6px 4px;
+    padding: 8px 6px;
   }
 }
 
@@ -381,6 +381,8 @@ p.quote,
 
   li {
     line-height: 1.5;
+    margin-bottom: 1.5pt;
+    break-inside: avoid;
   }
 
   .wrapper,
@@ -395,8 +397,9 @@ p.quote,
   h3 {
     font-size: 14pt;
     font-weight: 700;
-    margin: 14pt 0 8pt;
+    margin: 0 0 10pt;
     padding-bottom: 4pt;
+    break-after: avoid;
   }
 
   h4 {
@@ -407,7 +410,7 @@ p.quote,
   // 경력·학력 2단 → 1단: 회사 정보를 위에 한 줄, 불릿은 전체 폭
   .layout {
     display: block;
-    margin: 0 0 10pt;
+    margin: 0 0 14pt;
     page-break-inside: auto;
   }
 
@@ -426,8 +429,9 @@ p.quote,
 
   .layout .details {
     display: block;
-    margin-bottom: 2pt;
+    margin-bottom: 4pt;
     text-align: left !important;
+    break-after: avoid;
   }
 
   .layout .details h4,
@@ -448,8 +452,16 @@ p.quote,
     color: #888;
   }
 
+  // 섹션 사이 여백: 8pt → 20pt (가독성)
   .container {
-    margin-top: 8pt;
+    margin-top: 20pt;
+  }
+
+  // Education & Certification은 새 페이지에서 시작 (중간에 끊기지 않게)
+  // Skill도 같은 education-container 클래스를 쓰므로 Education 전용 클래스로 지정한다
+  .certification-container {
+    break-before: page;
+    margin-top: 0;
   }
 
   .layout-top-middle .details h4 {
@@ -458,15 +470,15 @@ p.quote,
 
   .experience-container .row p.quote,
   p.quote {
-    margin: 2pt 0 4pt;
-    padding: 0;
+    margin: 3pt 0 6pt;
+    padding: 2pt 6pt;
     text-align: left;
     font-size: 10pt;
   }
 
   ul {
-    margin-top: 2pt;
-    margin-bottom: 4pt;
+    margin-top: 3pt;
+    margin-bottom: 6pt;
   }
 
   p {
