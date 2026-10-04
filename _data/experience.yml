@@ -1,0 +1,45 @@
+# 회사는 최신순, 회사 안 불릿은 클라이언트 직무 연관성 순
+# 게임별 상세는 Projects로 옮김. 원본: _parked/experience-before-restructure.yml
+
+- layout: left
+  company: (주)디벨로켓에듀
+  job_title: XR/Unity KDT 과정 강사
+  dates: 2025.11 ~ 재직중
+  quote: >
+    과정 수료율 84.9% · 수강 만족도 4.4 / 5.0 · 강사 2인 체제에서 총 시수의 42.8% 담당
+  description: | # this will include new lines to allow paragraphs
+    **KDT XR/Unity 과정 (57명, 2026.02~07 강의·프로젝트 전담)**
+
+    * 강의·프로젝트 544시수 담당
+      * 기업 협약 XR 프로젝트 운영: 5팀 Google Play 출시
+      * 미니게임 프로젝트 운영: 49명 중 45명 완주
+    * 교안·특강 제작
+      * Unity 응용·인터랙티브 교안 131문서
+      * 특강 2종: 렌더링 최적화, Unity 아키텍처
+
+    **KDC 온라인 과정 2종 (2026.08~09)**
+
+    * IT기초역량 C# 20강 · 메타버스 입문 18강 교안·촬영·편집 1인 제작
+
+- layout: left
+  company: MondayOFF
+  job_title: Client Developer
+  dates: 2020.10 ~ 2024.08 (3년 11개월)
+  quote: >
+    모바일 하이퍼캐주얼 14종 출시 · 출시작 합산 누적 유저 300만 · 매출 6억
+  description: | # this will include new lines to allow paragraphs
+    * 신작 클라이언트 전담: 프로토타입부터 iOS/Android 출시·지표 분석까지
+      * 기획 → Unity 제작 → 사내 SDK 연동(MAX 미디에이션·Firebase·Singular·IAP) → 이벤트 로그 기반 지표 개선 사이클 반복
+      * 이벤트 스키마 설계: 게임·광고·플레이 타임 추적 이벤트로 이탈 지점 분석
+      * 프로파일러로 메모리·드로우콜 점검, 빌드·라이브 업데이트 운영
+      * 기획·아트·QA와 협업하며 일정 관리
+    * 인하우스 Unity Framework 설계
+
+- layout: left
+  company: 크몽 (프리랜서)
+  job_title: Unity 외주 개발
+  dates: 2019.12 ~ 2020.10
+  quote: >
+    PC 싱글 게임·모바일 게임 외주 6건 수행
+  description: | # this will include new lines to allow paragraphs
+    * 요구사항 정리부터 Unity 클라이언트 구현·납품까지 1인 수행

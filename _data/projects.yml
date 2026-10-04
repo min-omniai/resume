@@ -1,0 +1,58 @@
+# 프로젝트: 게임 · 교육 · 운영 · AI 사례를 한 목록으로, 작업 날짜 내림차순(날짜 없는 Unity Framework는 맨 끝)
+# 제작기간 · 역할은 각 게임 저장소 README 근거. TankBall!은 10-05 삭제(공개 레포는 유지)
+
+- layout: top-middle
+  name: KDC IT기초역량 C# 과정 제작
+  dates: 2026.08
+  quote: >
+    교안 제작·검증을 Claude Code 파이프라인으로 구축
+  description: | # this will include new lines to allow paragraphs
+    * 직접 첨삭한 표본 강의를 규칙으로 만들어 나머지 차시 생성을 위임
+      * 자동 형식 검사 + 다른 모델(Codex) 교차검수: 134건 발견 · 130건 반영
+      * 실습 22개 빌드 0경고 0오류
+    * 이 방식을 특강 학습자료(10단원)로 체계화
+
+- layout: top-middle
+  name: 기업 협약 프로젝트 운영
+  github: min-omniai/ops-risk-dashboard-portfolio
+  dates: 2026.05 ~ 2026.07 (2개월 · 8팀 37명)
+  quote: >
+    운영 설계는 직접, 도구 구현은 AI로 · 매일 2교시 구두 브리핑을 대시보드로 대체
+  description: | # this will include new lines to allow paragraphs
+    * 운영 설계: 출시 게이트와 팀별 WBS, 위험 판정 규칙 6종을 코딩 전에 문서로 고정
+      * Claude Code·Codex로 웹 대시보드 구현 ([공개 데모](https://min-omniai.github.io/ops-risk-dashboard-portfolio/))
+    * 결과: 위험 팀 2팀 → 0팀, 8팀 전원 최종 발표 완주
+
+- layout: top-middle
+  name: Match Gun 3D
+  github: min-omniai/MatchGun3D
+  dates: 2023.05 ~ 2023.08 (3개월)
+  quote: >
+    출시 14종 중 최대 매출 타이틀: 투입 이후 글로벌 서비스 흑자 전환 · 매출 15만 달러
+  description: | # this will include new lines to allow paragraphs
+    * 2인 팀에서 클라이언트 개발 전담 (총기 짝맞추기 + 러너 모바일 퍼즐)
+      * 기획·제작: 인게임 플레이 루프 전면 개편
+      * 서드파티: MAX SDK·IAP 연동
+      * 지표 개선: 이탈 구간 데이터로 UI/UX·연출 개선
+
+- layout: top-middle
+  name: TimeWalker 3D
+  github: min-omniai/TimeWalker3D
+  dates: 2021.01 ~ 2021.05 (4개월)
+  quote: >
+    자사 첫 누적 유저 100만
+  description: | # this will include new lines to allow paragraphs
+    * 2인 팀: 클라이언트 구현, 기획 겸임
+      * 기획: 레벨 150개 설계
+      * 제작: 시간 가속·감속 물리 로직 구현
+      * 지표 개선: 광고 테스트(CPC·CPI)를 반복하며 CPI·스테이지 퍼널·리텐션 개선
+
+- layout: top-middle
+  name: Unity Framework
+  github: min-omniai/lec-unity-managers-arch
+  quote: >
+    MondayOFF 신작 공통 구조 설계 · 이후 KDT 특강 교보재로 각색
+  description: | # this will include new lines to allow paragraphs
+    * MondayOFF: 신작마다 반복되던 리소스·UI·사운드·데이터 관리를 공통화해 이후 신작에 적용
+      * 에디터 툴: UI 하이어라키를 읽어 바인딩 코드를 자동 생성, 원클릭 APK·AAB 빌드
+    * KDT 특강: 구조가 필요한 이유를 6강 특강으로 각색, Unity 6 샘플 코드 공개

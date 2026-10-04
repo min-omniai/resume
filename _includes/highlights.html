@@ -1,0 +1,7 @@
+<div class="container highlights-container">
+    <ul class="highlights">
+        {% for item in site.data.highlights %}
+        <li><strong>{{ item.value }}</strong><span>{{ item.label }}</span></li>
+        {% endfor %}
+    </ul>
+</div>

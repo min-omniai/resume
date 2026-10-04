@@ -1,0 +1,555 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'modern-resume-theme';
+
+// ─────────────────────────────────────────────
+// Claude 팔레트
+// 대비비는 WCAG 2.1 기준. 본문 16px이므로 텍스트는 4.5:1,
+// 아이콘 등 비텍스트 요소는 3:1을 충족시킴.
+// ─────────────────────────────────────────────
+
+// 라이트 — Claude 공식 브랜드 색상
+// Crail #C15F3C · White #FFFFFF · Pampas #F4F3EE · Cloudy #B1ADA1
+$c-bg:      #F1EAD9; // claude.ai 배경 톤. Pampas(#F4F3EE)보다 어둡고 따뜻해
+                     // 흰색 대비 상대 밝기 0.826 (Pampas 0.895) — 눈부심 완화
+$c-link:    #C15F3C; // Crail — Pampas 위 3.80:1
+$c-link-hi: #A84A2E; // Crail 어둡게 — 5.13:1 (hover)
+$c-accent:  #C15F3C; // Crail — 로고/아이콘 채움 (흰 아이콘과 4.23:1)
+$c-rule:    #B1ADA1; // Cloudy — 점선 구분선
+$c-text:    #1F1E1D; // 14.98:1
+$c-muted:   #6B6761; //  5.06:1
+
+// 다크
+$d-bg:      #262624;
+$d-text:    #F5F4EF; // 13.77:1
+$d-link:    #E89A80; //  6.76:1
+$d-muted:   #A8A49B; //  6.10:1
+$d-rule:    #454340;
+
+// ── 라이트 ───────────────────────────────────
+body {
+  background: $c-bg;
+  color: $c-text;
+}
+
+a {
+  color: $c-link;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: $c-link-hi;
+}
+
+h3 {
+  border-bottom-color: $c-rule;
+}
+
+p.quote {
+  color: $c-muted;
+}
+
+mark {
+  background-color: $c-link; // Crail + 흰 글씨 4.23:1
+  color: #fff;
+}
+
+.profile-img {
+  box-shadow: inset 0 0 20px rgba(31, 30, 29, .35);
+}
+
+.icons a {
+  color: $c-muted;
+}
+
+.button--sacnite::before {
+  box-shadow: inset 0 0 0 35px $c-accent;
+}
+
+.button--sacnite:hover {
+  color: $c-link;
+}
+
+.button--sacnite:hover::before {
+  box-shadow: inset 0 0 0 2px $c-link;
+}
+
+// ── 다크 ─────────────────────────────────────
+.dark {
+  background-color: $d-bg;
+  color: $d-text;
+
+  a {
+    color: $d-link;
+  }
+
+  a:active,
+  a:focus,
+  a:hover {
+    color: lighten($d-link, 8%);
+  }
+
+  h3 {
+    border-bottom-color: $d-rule;
+  }
+
+  p.quote {
+    color: $d-muted;
+  }
+
+  mark {
+    background-color: $d-link;
+    color: $d-bg;
+  }
+
+  .icons a {
+    color: $d-muted;
+  }
+
+  .button--sacnite::before {
+    box-shadow: inset 0 0 0 35px $d-link;
+  }
+
+  .button.button--sacnite {
+    color: $d-bg;
+  }
+
+  .button--sacnite:hover {
+    color: $d-link;
+  }
+
+  .button--sacnite:hover::before {
+    box-shadow: inset 0 0 0 2px $d-link;
+  }
+}
+
+// ── 라이트/다크 토글 버튼 ────────────────────
+#theme-toggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid $c-rule;
+  border-radius: 50%;
+  background: $c-bg;
+  color: $c-link;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(31, 30, 29, .15);
+}
+
+#theme-toggle:hover {
+  background: darken($c-bg, 5%);
+}
+
+.dark #theme-toggle {
+  border-color: $d-rule;
+  background: lighten($d-bg, 5%);
+  color: $d-link;
+}
+
+.dark #theme-toggle:hover {
+  background: lighten($d-bg, 10%);
+}
+
+@media print {
+  #theme-toggle {
+    display: none;
+  }
+}
+
+// ── Experience·학력: 회사명과 한 줄 요약을 같은 선상(칸 맨 위)에 ──
+// 테마는 왼쪽 칸을 세로 중앙 정렬하고 요약을 페이지 중앙에 두어,
+// 회사명과 성과가 서로 다른 높이에 떠 보였다.
+.layout-left .details {
+  justify-content: flex-start;
+}
+
+.layout-left .details h4 {
+  margin-top: 0;
+  line-height: 1.3;
+}
+
+.layout-left p.quote {
+  text-align: left;
+  margin: 0 0 0.6rem;
+  padding: 0;
+  font-size: 1.6rem;
+  font-weight: 500;
+  // 줄 높이를 회사명(h4 2.5rem × 1.3)과 같게 해 두 줄의 가운데 선을 맞춘다
+  line-height: calc(2.5rem * 1.3);
+}
+
+// ── 한글 가독성 ──────────────────────────────
+// Roboto에는 한글 글리프가 없어 시스템 글꼴로 대체되므로 Pretendard를 앞에 둔다.
+// 테마의 양쪽 정렬은 한글에서 단어 간격을 크게 벌리므로 왼쪽 정렬로 되돌리고,
+// keep-all로 단어 중간 줄바꿈("메모/리")을 막는다.
+body {
+  font-family: "Pretendard Variable", Pretendard, Roboto, -apple-system, "Malgun Gothic", sans-serif;
+}
+
+p,
+ul {
+  text-align: left;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+li {
+  line-height: 1.65;
+}
+
+// ── 섹션 간격: Experience~Etc 사이를 30px → 50px (화면 전용, 인쇄는 아래 print 규칙 유지) ──
+@media screen {
+  .highlights-container ~ .container {
+    margin-top: 50px;
+  }
+}
+
+// ── 첫 화면 성과 칩 ──────────────────────────
+.highlights-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 8px;
+    border: 1px solid $c-rule;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  strong {
+    color: $c-link;
+    font-size: 2.0rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  span {
+    color: $c-muted;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .highlights {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .highlights strong {
+    font-size: clamp(1.0rem, 3.2vw, 1.7rem);
+  }
+
+  .highlights span {
+    font-size: clamp(1.0rem, 3vw, 1.3rem);
+  }
+}
+
+// 칩 설명 줄 안에서 끊기면 안 되는 구절
+.highlights .nw {
+  white-space: nowrap;
+}
+
+// 성과 칩 값은 한 줄 유지: 칩 폭이 좁아지는 구간마다 글자 크기를 낮춘다
+@media (min-width: 768px) and (max-width: 991px) {
+  .highlights strong {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .highlights strong {
+    font-size: 1.65rem;
+  }
+}
+
+.dark .highlights {
+  li {
+    border-color: $d-rule;
+  }
+
+  strong {
+    color: $d-link;
+  }
+
+  span {
+    color: $d-muted;
+  }
+}
+
+// 프로필 사진 축소 — About 본문을 첫 화면 안으로 당긴다
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+
+@media print {
+  .highlights li {
+    padding: 6px 4px;
+  }
+}
+
+// ── 왼쪽 칸 제목: 단어 중간 줄바꿈 방지, 긴 URL은 칸 안에서 줄바꿈 ──
+.details h4,
+.details p {
+  word-break: keep-all;
+}
+
+// 링크는 제목·직함·기간 뒤로 (학력의 "학교 / URL / 학과" 순서 방지)
+.details .link {
+  order: 9;
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+// ── Projects 제목을 본문과 같은 왼쪽 정렬로 ──
+.layout-top-middle .details,
+.layout-top-middle .details h4 {
+  text-align: left !important;
+}
+
+.layout-top-middle p.quote {
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// ── 강조: 배경 칠 대신 굵은 글씨 + 포인트 색 ──
+// 채운 배경은 화면에서 도장처럼 튀고, 인쇄에서는 배경이 빠져 앞뒤 공백만 남는다.
+mark {
+  background-color: transparent;
+  color: $c-link-hi;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.dark mark {
+  background-color: transparent;
+  color: $d-link;
+}
+
+// ── 한 줄 요약: 한글엔 이탤릭 글리프가 없어 기울임을 합성하므로 정체로 ──
+.quote,
+p.quote,
+.layout .details a,
+.footer-container p,
+.footer-container a {
+  font-style: normal;
+}
+
+// ── 인쇄(PDF 제출용): A4 2~3장, 여백 20mm, 본문 10.5pt ──
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
+@media print {
+  body {
+    font-size: 10.5pt;
+    background: #fff;
+    color: #000;
+  }
+
+  li {
+    line-height: 1.5;
+  }
+
+  .wrapper,
+  .container {
+    width: 100%;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  // 섹션 제목: 크고 가는 3rem → 14pt 굵게, 여백 축소
+  h3 {
+    font-size: 14pt;
+    font-weight: 700;
+    margin: 14pt 0 8pt;
+    padding-bottom: 4pt;
+  }
+
+  h4 {
+    font-size: 12pt;
+    margin: 0;
+  }
+
+  // 경력·학력 2단 → 1단: 회사 정보를 위에 한 줄, 불릿은 전체 폭
+  .layout {
+    display: block;
+    margin: 0 0 10pt;
+    page-break-inside: auto;
+  }
+
+  .layout > [class*="col-"] {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  // 회사명 · 직함 · 기간 · 링크를 한 줄로
+  // 인쇄물에선 URL 문자열이 공간만 차지하므로 회사·학교 링크 숨김
+  .layout .details .link,
+  .layout .details p:has(> a[href^="http"]) {
+    display: none !important;
+  }
+
+  .layout .details {
+    display: block;
+    margin-bottom: 2pt;
+    text-align: left !important;
+  }
+
+  .layout .details h4,
+  .layout .details p {
+    display: inline;
+    margin: 0;
+    font-size: 10.5pt;
+    text-align: left !important;
+  }
+
+  .layout .details h4 {
+    font-size: 12pt;
+    font-weight: 700;
+  }
+
+  .layout .details p::before {
+    content: " · ";
+    color: #888;
+  }
+
+  .container {
+    margin-top: 8pt;
+  }
+
+  .layout-top-middle .details h4 {
+    text-align: left;
+  }
+
+  .experience-container .row p.quote,
+  p.quote {
+    margin: 2pt 0 4pt;
+    padding: 0;
+    text-align: left;
+    font-size: 10pt;
+  }
+
+  ul {
+    margin-top: 2pt;
+    margin-bottom: 4pt;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 4pt;
+  }
+
+  mark {
+    color: #000;
+  }
+
+  // 인쇄에서 사진은 작게
+  .about-container img,
+  .avatar {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+// ── 두괄식 한 줄 요약: 인용 박스(왼쪽 포인트 선 + 옅은 배경) ──
+// 경력·프로젝트에만 적용. 학력의 "최종학력, BS" 같은 부가 정보는 제외.
+// 세로 패딩은 0으로 두어 회사명과 같은 선상 정렬을 유지한다.
+.experience-container .layout p.quote,
+.projects-container .layout p.quote {
+  display: block;
+  color: $c-text;
+  font-weight: 600;
+  background: rgba($c-link, 0.08);
+  border-left: 3px solid $c-link;
+  border-radius: 0 4px 4px 0;
+  padding: 0 1rem;
+}
+
+.dark .experience-container .layout p.quote,
+.dark .projects-container .layout p.quote {
+  color: $d-text;
+  background: rgba($d-link, 0.10);
+  border-left-color: $d-link;
+}
+
+.projects-container .layout p.quote {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin: 0.4rem 0 0.8rem;
+}
+
+@media print {
+  .experience-container .layout p.quote,
+  .projects-container .layout p.quote {
+    background: none;
+    border-left: 2pt solid #999;
+    padding: 0 0 0 6pt;
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.5;
+  }
+}
+
+// ── 프로젝트 제목 옆 GitHub 아이콘 ──
+.title-github {
+  margin-left: 0.6rem;
+  font-size: 0.8em;
+  color: $c-muted;
+  vertical-align: middle;
+}
+
+.title-github:hover {
+  color: $c-link;
+}
+
+.dark .title-github {
+  color: $d-muted;
+}
+
+@media print {
+  .title-github {
+    display: none;
+  }
+}
+
+// ── 섹션 제목: 얇은 300 → 500, 크기 3rem → 2.6rem ──
+// 회사명(h4 500)보다 섹션 제목이 얇아 위계가 뒤집혀 보이던 문제 보정
+.container > h3 {
+  font-weight: 500;
+  font-size: 2.6rem;
+}
