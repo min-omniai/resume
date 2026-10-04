@@ -30,7 +30,7 @@
   description: | # this will include new lines to allow paragraphs
     * 신작 클라이언트 전담: 프로토타입부터 iOS/Android 출시·지표 분석까지
       * 기획 → Unity 제작 → 사내 SDK 연동(MAX 미디에이션·Firebase·Singular·IAP) → 이벤트 로그 기반 지표 개선 사이클 반복
-      * 이벤트 스키마 설계: 게임·광고·플레이 타임 추적 이벤트로 이탈 지점 분석
+      * 광고 배치 전략·라이브옵스 담당: 게임·광고·플레이 타임 이벤트를 기록하고 지표를 보며 조정
       * 프로파일러로 메모리·드로우콜 점검, 빌드·라이브 업데이트 운영
       * 기획·아트·QA와 협업하며 일정 관리
     * 인하우스 Unity Framework 설계
