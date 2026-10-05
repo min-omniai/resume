@@ -17,7 +17,7 @@ linkedin_username: omni-choi-bs-2405b6208
 
 # About Section
 about_title: About Me
-about_profile_image: images/profile.png
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   모바일 게임 14종을 출시한 <mark>Unity 클라이언트 개발자</mark>입니다. 반복되는 일은 구조와 자동화로 바꿉니다.
 
