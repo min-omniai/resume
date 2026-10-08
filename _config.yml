@@ -22,7 +22,7 @@ about_content: | # this will include new lines to allow paragraphs
   모바일 게임 14종을 출시한 <mark>Unity 클라이언트 개발자</mark>입니다. 반복되는 일은 구조와 자동화로 바꿉니다.
 
   * **출시**: MondayOFF에서 프로토타입부터 iOS/Android 출시·라이브 운영까지 3~4개월 주기로 전담
-    * Match Gun 3D 투입 후 흑자 전환(매출 15만 달러), TimeWalker 3D 누적 유저 100만
+    * Match Gun 3D 흑자 전환(매출 15만 달러), TimeWalker 3D 누적 유저 100만
   * **구조**: 인하우스 Unity Framework 설계
     * 신작마다 반복되던 리소스·UI·사운드·데이터 관리를 공통화해 이후 신작에 적용
   * **AI 활용**: KDC C# 과정 20강을 11일에 1인 제작

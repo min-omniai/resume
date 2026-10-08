@@ -28,12 +28,11 @@
   github: min-omniai/MatchGun3D
   dates: 2023.05 ~ 2023.08 (3개월)
   quote: >
-    출시 14종 중 최대 매출 타이틀: 투입 이후 글로벌 서비스 흑자 전환 · 매출 15만 달러
+    출시 14종 중 최대 매출 타이틀: 흑자 전환 · 매출 15만 달러
   description: | # this will include new lines to allow paragraphs
     * 2인 팀에서 클라이언트 개발 전담 (총기 짝맞추기 + 러너 모바일 퍼즐)
-      * 기획·제작: 인게임 플레이 루프 전면 개편
+      * 제작: 코어 루프 중심으로 메뉴 UI·인게임 UX를 다듬어 완성도 개선
       * 서드파티: MAX SDK·IAP 연동
-      * 지표 개선: 이탈 구간 데이터로 UI/UX·연출 개선
 
 - layout: top-middle
   name: TimeWalker 3D
