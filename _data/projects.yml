@@ -44,7 +44,7 @@
   description: | # this will include new lines to allow paragraphs
     * 2인 팀: 클라이언트 구현, 기획 겸임
       * 기획: 레벨 150개 설계
-      * 제작: 시간 가속·감속 물리 로직 구현
+      * 제작: 시간 가속·감속 코어 메커닉 구현
       * 지표 개선: 광고 테스트(CPC·CPI)를 반복하며 CPI·스테이지 퍼널·리텐션 개선
 
 - layout: top-middle
