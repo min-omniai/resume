@@ -7,7 +7,7 @@
   description: | # this will include new lines to allow paragraphs
     * C# · Unity Engine · UGUI
     * 최적화: Profiler 기반 메모리·Draw Call 최적화
-    * 출시: AppLovin MAX 미디에이션(IronSource 등 15개 광고 네트워크), IAP, iOS/Android 빌드, 라이브 업데이트
+    * 출시: 사내 SDK 래퍼(AppLovin MAX·IAP) 활용, iOS/Android 빌드, 라이브 업데이트
     * 분석 · 마케팅 · 협업: Firebase(이벤트 로그 분석), Singular(어트리뷰션, 사내 SDK 경유), Luna Playable(플레이어블 광고), Git/GitHub
 
 - layout: left

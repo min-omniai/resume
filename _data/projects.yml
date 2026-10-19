@@ -33,7 +33,7 @@
   description: | # this will include new lines to allow paragraphs
     * 2인 팀에서 클라이언트 개발 전담 (총기 짝맞추기 + 러너 모바일 퍼즐)
       * 제작: 코어 루프 중심으로 메뉴 UI·인게임 UX를 다듬어 완성도 개선
-      * 서드파티: MAX SDK·IAP 연동
+      * 서드파티: 사내 SDK 래퍼로 광고 배치·이벤트 호출
 
 - layout: top-middle
   name: TimeWalker 3D
@@ -54,5 +54,5 @@
     MondayOFF 신작 공통 구조 설계 · 이후 KDT 특강 교보재로 각색
   description: | # this will include new lines to allow paragraphs
     * MondayOFF: 신작마다 반복되던 리소스·UI·사운드·데이터 관리를 공통화해 이후 신작에 적용
-      * 에디터 툴: UI 하이어라키를 읽어 바인딩 코드를 자동 생성, 원클릭 APK·AAB 빌드
+      * 에디터 툴: UI 바인딩 코드 자동 생성 방식 도입, 원클릭 APK·AAB 빌드
     * KDT 특강: 구조가 필요한 이유를 6강 특강으로 각색, Unity 6 샘플 코드 공개
