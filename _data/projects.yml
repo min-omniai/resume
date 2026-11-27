@@ -5,7 +5,7 @@
   name: AI 게임 제작 스튜디오
   dates: 2026.11 ~ 진행 중
   quote: >
-    구현은 Claude에게 맡기고, 규칙과 검수 관문은 직접 설계
+    구현은 Claude와 함께 하고, 규칙과 검수 관문은 직접 설계
   description: | # this will include new lines to allow paragraphs
     * Claude Code 에이전트 6개(기획·제작·검수·판정·출시·시장 조사)에 일감을 나눠 HTML5 게임을 만들어 itch.io에 공개
       * TIMED COUNTER: 아이디어 확정부터 공개까지 2.3일, 일감 51개
@@ -56,7 +56,7 @@
   quote: >
     자사 첫 누적 유저 100만
   description: | # this will include new lines to allow paragraphs
-    * 2인 팀: 클라이언트 구현, 기획 겸임
+    * 2인 팀에서 메인 기획·개발 전담
       * 기획: 레벨 150개 설계
       * 제작: 시간 가속·감속 코어 메커닉 구현
       * 지표 개선: 광고 테스트(CPC·CPI)를 반복하며 CPI·스테이지 퍼널·리텐션 개선
